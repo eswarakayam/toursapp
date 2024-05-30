@@ -6,11 +6,8 @@ function Tours({tour, removeTour}) {
     const [showContent, setShowContent] = useState(false);
 
     return (
-      <div>
-      <div className='app'>{
-          
+      <div>{          
         <div className='main' key={id}>
-
         <img width={"250px"} height={"200px"} src={imgLink} alt={name} />
         <h1 style={{
             fontSize: "medium",
@@ -42,7 +39,6 @@ function Tours({tour, removeTour}) {
         ${price}</p></div> 
     </div>      
     }
-    </div>
     </div>
   )
 }
